@@ -62,8 +62,16 @@ header{
 .menu-toggle-btn{
 	float: right;
 	height: 90px;
+	line-height: 90px !important;
 	color: #fff;
 	font-size: 26px;
-	display: flex; 
-	align-items: center;
+	display: none !important; 
+	cursor: pointer;
+}
+
+@media screen and (max-width: 700px){
+	.menu-toggle-btn{
+		display: block !important;
+	}
+
 }
