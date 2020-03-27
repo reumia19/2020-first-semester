@@ -25,6 +25,11 @@ header{
 	text-transform: uppercase;
 }
 
+.logo > i{
+	margin-right: 10px;
+}
+
+
 .navigation-menu{
 	float: right;
 	display: flex;
@@ -33,18 +38,24 @@ header{
 }
 
 .navigation-menu a{
-	margin-left: 20px;
+	margin-left: 10px;
 	color: #ddd;
 	text-transform: uppercase;
-/*	padding:12px 20px;
-	background: #30B5DF;
-	background:#2396D7;
-	border-radius: 25px;*/
+	padding:12px 20px; 
+	border-radius: 25px;
 	transition: .3s linear;
 }
 
 .navigation-menu a:hover{
+	background: #fff;
 	color: #2396D7;
 	font-weight: bold;
 	transform: scale(1.1);
 }
+
+.navigation-menu i{
+	margin-right: 8px;
+	font-size: 1.3em;
+
+}
+
