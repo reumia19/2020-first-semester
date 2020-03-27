@@ -74,4 +74,24 @@ header{
 		display: block !important;
 	}
 
+	.navigation-menu{
+		position: fixed;
+		width:100%;
+		max-width: 400px;
+		background: #172b4d;
+		top: 90px;
+		right: 0;
+/*		display: none !important;*/
+		display: block;
+		padding: 20px 40px;
+		box-sizing: border-box;
+	}
+
+	.navigation-menu a{
+		display: block;
+		margin: 10px 0;
+	}
+
+
 }
+
