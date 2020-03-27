@@ -14,3 +14,27 @@ header{
 	padding: 0 10px;
 	margin: auto;
 }
+
+.logo{
+	float:left;
+	padding : 20px 0;
+	color: #ddd;
+	font-size: 2em;
+}
+
+.navigation-menu{
+	float: right;
+	display: flex;
+	align-items: center;
+	min-height: 90px;
+}
+
+.navigation-menu a{
+	margin-left: 10px;
+	color: #ddd;
+	text-transform: uppercase;
+	padding:12px 20px;
+	background: #30B5DF;
+	border-radius: 4px;
+	transition: .3s linear;
+}
