@@ -81,8 +81,7 @@ header{
 		background: #172b4d;
 		top: 90px;
 		right: 0;
-/*		display: none !important;*/
-		display: block;
+		display: none;
 		padding: 20px 40px;
 		box-sizing: border-box;
 	}
@@ -92,6 +91,8 @@ header{
 		margin: 10px 0;
 	}
 
-
+	.navigation-menu.active{
+		display: block !important;
+	}
 }
 
