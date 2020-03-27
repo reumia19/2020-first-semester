@@ -59,3 +59,11 @@ header{
 
 }
 
+.menu-toggle-btn{
+	float: right;
+	height: 90px;
+	color: #fff;
+	font-size: 26px;
+	display: flex; 
+	align-items: center;
+}
